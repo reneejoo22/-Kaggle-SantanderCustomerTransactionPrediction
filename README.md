@@ -1,5 +1,5 @@
 # [Kaggle] Santander Customer Transaction Prediction
-- 데이터로 AI 예측 모델 만들기
+- 주어진 데이터로 손님의 거래 여부 예측 AI 모델 만들기
 - train & Test 데이터 아래에서 다운로드
 - https://www.kaggle.com/competitions/santander-customer-transaction-prediction
 - reference: https://github.com/saadbinmanjur/Kaggle-Competition-Santander-Customer-Transaction-Prediction/tree/main
