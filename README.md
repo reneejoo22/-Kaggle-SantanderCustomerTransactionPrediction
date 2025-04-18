@@ -14,13 +14,15 @@ Our data science team is continually challenging our machine learning algorithms
 
 In this challenge, we invite Kagglers to help us identify which customers will make a specific transaction in the future, irrespective of the amount of money transacted. The data provided for this competition has the same structure as the real data we have available to solve this problem.
 
+---
+
 [내 풀이]
-독립변수: LGBM 의 feature_importance_ 사용해서 영향력 있는 독립변수 100개 뽑음.
-결측치: 없음
-이상치: 처리 안함
-정규화: StandardScaler
-데이터 불균형: DownSampling_ 타겟이 0인걸 1있는 갯수만큼 랜덤하게 지움
-모델: GNB (가우시안 나이브 베이즈) 사용_ 상관계수가 전부 낮아서 유리
+- 독립변수: LGBM 의 feature_importance_ 사용해서 영향력 있는 독립변수 100개 뽑음.
+- 결측치: 없음
+- 이상치: 처리 안함
+- 정규화: StandardScaler
+- 데이터 불균형: DownSampling_ 타겟이 0인걸 1있는 갯수만큼 랜덤하게 지움
+- 모델: GNB (가우시안 나이브 베이즈) 사용_ 상관계수가 전부 낮아서 유리
 
 ---
 독립변수 100개, 모델 훈련 시
